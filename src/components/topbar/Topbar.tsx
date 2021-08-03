@@ -2,7 +2,7 @@ import React from 'react';
 import './Topbar.css';
 import { NotificationsNone, Language, Settings } from '@material-ui/icons';
 
-const Topbar = () => {
+const Topbar: React.FC = (): JSX.Element => {
   return (
     <div className='topbar'>
       <div className='topbarWrapper'>

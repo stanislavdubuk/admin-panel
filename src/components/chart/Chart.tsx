@@ -15,8 +15,12 @@ interface Props {
   grid?: boolean;
 }
 
-const Chart: React.FC<Props> = ({ title, data, dataKey, grid }) => {
-  console.log(data);
+const Chart: React.FC<Props> = ({
+  title,
+  data,
+  dataKey,
+  grid,
+}): JSX.Element => {
   return (
     <div className='chart'>
       <h3 className='chartTitle'>{title}</h3>

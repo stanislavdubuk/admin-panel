@@ -1,7 +1,7 @@
 import { Visibility } from '@material-ui/icons';
 import './WidgetSmall.css';
 
-const WidgetSmall = () => {
+const WidgetSmall: React.FC = (): JSX.Element => {
   return (
     <div className='widgetSmall'>
       <h3 className='widgetSmallTitle'>New Join Members</h3>

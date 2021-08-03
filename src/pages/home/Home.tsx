@@ -5,7 +5,7 @@ import { userData } from '../../dummyData';
 import WidgetSmall from '../../components/widgetSmall/WidgetSmall';
 import WidgetLarge from '../../components/widgetLarge/WidgetLarge';
 
-const Home: React.FC = () => {
+const Home: React.FC = (): JSX.Element => {
   return (
     <div className='home'>
       <FeaturedInfo />

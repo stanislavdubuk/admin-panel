@@ -1,7 +1,7 @@
 import './FeaturedInfo.css';
 import { ArrowDownward, ArrowUpward } from '@material-ui/icons';
 
-const featuredInfo = () => {
+const featuredInfo: React.FC = (): JSX.Element => {
   return (
     <div className='featured'>
       <div className='featuredItem'>
